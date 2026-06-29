@@ -52,7 +52,7 @@ export const FAQs: FAQItem[] = [
   {
     id: "faq-1",
     question: "What are the objectives of this program?",
-    answer: "The primary objective of xSkills by Cubelelo is to take you from a curious beginner who may not even know how to rotate a side, to an advanced speedcuber. You will learn notation, basic techniques, pattern recognition, and elite finger tricks designed by global cubing champions."
+    answer: "The goal of this program is simple: to help you unlock the cube at any level. We start by taking the mystery out of the Rubik's cube, giving beginners a foolproof foundation and the confidence to solve it on their own. From there, our Intermediate and Advanced modules are designed to help you step up your game from basic to elite - cutting out unnecessary moves, boosting your turning speed, and turning you into a true speedcuber."
   },
   {
     id: "faq-2",
@@ -62,17 +62,17 @@ export const FAQs: FAQItem[] = [
   {
     id: "faq-3",
     question: "What are the prerequisites for enrolling in this program?",
-    answer: "No prior experience is necessary for the Beginner Course. If you want to join the Intermediate or Advanced modules directly, we recommend already knowing how to solve the basic 3x3 cube in under 90 seconds."
+    answer: "Don't worry about hitting a wall - there's a starting point for everyone! If you're picking up a cube for the first time, our Beginner tier requires zero experience. If you can already solve it and know your basic face turns, you're ready for Intermediate. For the Advanced masterclass, you just need a strong foundation in intermediate methods and a willingness to practice hard to push your times lower."
   },
   {
     id: "faq-4",
-    question: "What is the mode of payment?",
-    answer: "Our payments are completely secure and powered by standard online payment gateways. We accept credit/debit cards, UPI, net banking, and international payments to ensure seamless enrollment."
+    question: "How long are the courses valid for?",
+    answer: "Your access stays active for 1 full year from the date of purchase. No rush at all - you can learn, practice, and rewatch the walkthroughs whenever it fits your schedule."
   },
   {
     id: "faq-5",
-    question: "Why I should not learn directly from YouTube and opt for your LMS program?",
-    answer: "While YouTube has thousands of videos, they are highly unstructured, conflicting, and full of bad finger shortcuts that limit your potential speed later. xSkills provides a systematic roadmap created by National Record holders, ensuring you build correct habits from Day 1, with curated cheat sheets, guides, and personal tracking."
+    question: "Why I should not learn directly from YouTube and opt for your program?",
+    answer: "YouTube is amazing, but it's a double-edged sword. You can easily waste hours getting lost in a sea of disjointed videos, conflicting advice, and algorithms that aren't meant for your specific skill level. Our program cuts out the noise. Designed by speedcubing experts, it gives you a structured, step-by-step roadmap. Instead of endlessly scrolling and guessing what to learn next, you get a clear, linear path that takes you from where you are to exactly where you want to be - saving you months of frustration."
   },
   {
     id: "faq-6",
@@ -284,135 +284,195 @@ export const PLANS: PlanCard[] = [
 export const SYLLABUS: Record<string, SyllabusAccord[]> = {
   beginner: [
     {
-      title: "3x3 Layer-by-Layer Mastery",
+      title: "3x3 Cube - The Classic Cube",
       items: [
-        "Notations and Structure of 3x3 (Face rotation vocabulary)",
-        "Learn Layer by Layer Method (Cross, Corners, Second Layer, Top Cross)",
-        "Special Cases & Parity Covered",
-        "Optimizing Beginners Method for sub-60 solves",
-        "2 Detailed Walkthrough Solves",
-        "2 Printable Cheat Sheets for Beginners"
+        "Notations and Structure of 3x3",
+        "Learn Layer by Layer Method",
+        "Special Cases and Common Mistakes Covered",
+        "Optimizing Beginners Method (Sub-2 Min Prep)",
+        "2 Walkthrough Solves",
+        "2 Cheat Sheets for Beginners"
       ]
     },
     {
-      title: "2x2 Pocket Cube Fundamentals",
+      title: "2x2 Cube - The Pocket Cube",
       items: [
-        "Understanding 2x2 notations and layers",
-        "Layer-by-layer intuitive corner arrangement",
-        "First layer positioning and base orientation algorithms",
-        "Solving the top layer and standard parities",
-        "Beginners guide and cheat sheet for 2x2"
+        "Notations and Structural Differences (2x2 vs 3x3)",
+        "Solving 2x2 using Layer by Layer Method",
+        "1 Walkthrough Solve",
+        "1 Cheat Sheet"
       ]
     },
     {
-      title: "4x4 Revenge Cube - Reduction",
+      title: "4x4 Cube - The Master Cube",
       items: [
-        "Introduction to big cubes notation, face centers",
-        "How to build the 6 face centers safely",
-        "Edge pairing: standard 3-2-3 grouping",
-        "Reducing the 4x4 into a virtual 3x3 layout",
-        "OLL Parity and PLL Parity algorithms with walkthrough walkthroughs"
+        "Notations and Structural Differences (3x3 vs 4x4)",
+        "Solving Centers and Edges (Reduction Method)",
+        "Parity and 3x3 Stage Solving",
+        "1 Walkthrough Solve",
+        "1 Cheat Sheet"
       ]
     },
     {
-      title: "5x5 Professor's Cube Basics",
+      title: "5x5 Cube - The Professor's Cube",
       items: [
-        "Structure of 5 centres and edge parts",
-        "Building absolute centers (3x3 blocks on each side)",
-        "Standard edge matching techniques",
-        "Virtual 3x3 reduction and solving tips",
-        "Walkthrough solve demonstrating safe moves"
+        "Structural Differences (5x5 vs 4x4 vs 3x3)",
+        "Solving Centers and Edges",
+        "Last 4 Edges (L4E) Cases","1 Walkthrough Solve",
+        "1 Cheat Sheet"
       ]
     },
     {
       title: "3x3 One Handed Basics",
       items: [
-        "How to comfortably hold the cube with one hand",
-        "Standard table starts and corner grip positions",
-        "Basic trigger movements using pinky and ring fingers",
-        "Solving the first layer with one hand",
-        "Basic algorithm adaptations for OH"
+        "About 3x3 One-Handed and Basic Rules",
+        "One Hand Solving Ergonomics Explained",
+        "Finger Triggers and Muscle Memory",
+        "1 Cheat Sheet"
       ]
     }
   ],
   intermediate: [
     {
-      title: "3x3 Speed Solving (CFOP Method)",
+      title: "3x3 Speedcubing",
       items: [
-        "Intro to CFOP: Cross on bottom (intuitive, under 8 moves)",
-        "First Two Layers (F2L): Intuitive corner+edge pair slots",
-        "2-Look OLL (Orientation of Last Layer): 10 quick algorithms",
-        "2-Look PLL (Permutation of Last Layer): 6 quick algorithms",
-        "Developing fluent look-ahead during cross to F2L transitions"
+        "All Modules of Beginner Course",
+        "Advanced Notations and Fingertricks (Boost TPS)",
+        "Cross on Bottom Tips and Example Solves",
+        "F2L Introduction (First 2 Layers Simultaneously)",
+        "4-Look Last Layer (2 Look OLL and 2 Look PLL)",
+        "5 Example Solves",
+        "Efficiently Solving F2L Cases (No Regrips)",
+        "Tips on Look-Ahead, TPS, and Turning Speed",
+        "Learn Full OLL and Full PLL (78 Algs Roadmap)",
+        "5 Walkthrough Solves",
+        "4 Cheat Sheets"
       ]
     },
     {
-      title: "2x2 Ortega Method (Sub-5 speed)",
+      title: "2x2 Speedcubing",
       items: [
-        "Ortega overview: building a face instead of a layer",
-        "Orienter top face regardless of bottom layers",
-        "PBL (Permutation of Both Layers) - The 5 primary cases",
-        "Optimizing finger trick grips on 2x2",
-        "Walkthroughs of sub-5 second Ortega solves"
+        "All Modules of Beginner Course",
+        "Ortega Method: Solving One Face",
+        "Ortega Method: Top Layer & Both Layers Permutation",
+        "3 Walkthrough Solves",
+        "Optimizing Ortega and Inspection Tips",
+        "5 Walkthrough Solves",
+        "1 Cheat Sheet"
       ]
     },
     {
-      title: "4x4 Yau Method (The Modern Way)",
+      title: "4x4 Speedcubing",
       items: [
-        "Why Yau is faster: first 3 cross edges on bottom",
-        "Pairing remaining centers without breaking bottom edges",
-        "Last cross edge insertion to establish permanent bottom slot",
-        "Completing 3x3 stage on the face without visual blockades",
-        "Advanced tip for recognizing parities on the fly"
+        "All Modules of Beginner Course",
+        "Introduction to Yau Method (Pro Standard)",
+        "First Centers and Cross Edges",
+        "Last 4 Centers and Last 4 Edges",
+        "3-2-3 Edge Pairing and Annoying Cases",
+        "High-Speed Parity Execution",
+        "2 Walkthrough Solves",
+        "1 Cheat Sheet"
       ]
     },
     {
-      title: "5x5 Free Slice Method",
+      title: "5x5 Speedcubing",
       items: [
-        "Solving first 8 edges using slice-flip-slice and storage",
-        "Solving the final 4 edges on the top layer without center damage",
-        "L2E (Last Two Edges) parity solutions",
-        "Improving center-building speed with look-ahead",
-        "Detailed walkthrough showing efficient free-slice saves"
+        "All Modules of Beginner Course",
+        "Centers Efficiency (Fewer Moves)",
+        "Freeslice Method for Edge Pairing",
+        "Edges and 3x3 Stage Transition",
+        "1 Walkthrough Solve",
+        "1 Cheat Sheet"
+      ]
+    },
+    {
+      title: "3x3 One-Handed Speedcubing",
+      items: [
+        "All Modules of Beginner Course",
+        "One-Handed Cross Solutions",
+        "Look-Ahead Techniques to Get Faster at F2L",
+        "Last Layer Algorithms for OH",
+        "Color Neutrality Introduction",
+        "5 Walkthrough Solves"
       ]
     }
   ],
   advanced: [
     {
-      title: "3x3 Advanced CFOP & Sub-15 Road",
+      title: "3x3 Masterclass (Sub-15 Focus)",
       items: [
-        "Advanced F2L: Back-slot insertions and empty slot usage",
-        "Full OLL (Orientation): All 57 algorithms with optimal trigger sheets",
-        "Full PLL (Permutation): All 21 algorithms with speed finger tricks",
-        "Cross planning: planning into the first F2L pair during blind inspection",
-        "Look-ahead drills: continuous turning without pause"
+        "All Modules of Intermediate Course",
+        "Advanced Cross Solving with Examples",
+        "Inspecting Cross + 1st F2L Pair",
+        "Efficient Solution for all F2L Cases (Rotationless)",
+        "Introduction to Keyhole Technique",
+        "How to Build an X-Cross",
+        "Improve F2L Selection and Efficiency",
+        "Optimizing Cube Rotations",
+        "Intro to Subsets (COLL, WV, VLS, ZBLL, ZBLS & OLL CP)",
+        "5 Advanced Walkthrough Solves",
+        "5 Cheat Sheets"
       ]
     },
     {
-      title: "2x2 Advanced CLL & EG-1",
+      title: "3x3 Elite (Sub-10 Blueprint)",
       items: [
-        "CLL: Solve the top layer and orient corners simultaneously",
-        "EG-1: Solving when the bottom layer has adjacent swapped corners",
-        "Grip transition shortcuts and predicting orientation before first turn",
-        "Walkthroughs of sub-3 second solves"
+        "All Modules of Advanced Course",
+        "Optimizing Keyhole & Multislotting",
+        "Pseudo-Slotting Tactics",
+        "Elite Fingertricks: 2-gen F",
+        "JSS (Jayden's Second Slot)",
+        "Reducing Transition Times (Zero Dead Time)",
+        "Edge Orientation (EO) + ZBLL",
+        "10 Walkthrough Solves",
+        "1 Pro Reference Sheet"
       ]
     },
     {
-      title: "4x4 & 5x5 Elite Techniques",
+      title: "2x2 Masterclass",
       items: [
-        "Yau advanced: planning first 3 edges in inspection",
-        "Multi-pairing center techniques for 5x5",
-        "Special algorithm skips and intuitive edge placements",
-        "Solving parities inside standard PLL triggers to save fractions of seconds"
+        "All Modules of Intermediate Course",
+        "Introduction to CLL Method & Fingertricks",
+        "EG-1 Method (Solving from a Face)",
+        "One-Looking Skill (Predicting the Entire Solve)",
+        "AUF (Adjust Upper Layer) Prediction",
+        "6 Advanced Walkthrough Solves",
+        "1 Cheat Sheet"
       ]
     },
     {
-      title: "3x3 One Handed Professional Flicks",
+      title: "4x4 Elite (Sub-30 Sprint)",
       items: [
-        "RU and LU table turning efficiency",
-        "OH algorithm set: optimized triggers for OLL/PLL on one hand",
-        "Developing pinky strength for fast bottom layer flicking",
-        "Dual-hand transition solutions for WCA competitions"
+        "All Modules of Intermediate Course",
+        "Milestone Split Times Breakdown",
+        "Tips for First 2 Centers & First 3 Cross Edges",
+        "Tips for Last 4 Centers",
+        "Edge Tips (Last 8 Edges & Last 2 Edge Cases)",
+        "Transitions & Turning Fluidity",
+        "Instant OLL Parity & PLL Parity Recognition",
+        "3 Walkthrough Solves",
+        "1 Cheat Sheet"
+      ]
+    },
+    {
+      title: "5x5 Masterclass",
+      items: [
+        "All Modules of Intermediate Course",
+        "Shaving Seconds off First 2 & Last 4 Centers",
+        "Shaving Seconds off First 8 Edges",
+        "Flawless L4E (Last 4 Edges) Recognition",
+        "High-TPS 3x3 Stage Close-out",
+        "3 Walkthrough Solves"
+      ]
+    },
+    {
+      title: "3x3 One-Handed (Elite OH)",
+      items: [
+        "All Modules of Intermediate Course",
+        "Advanced OH Fingertricks (Table & Pinky Moves)",
+        "Advanced Cross Example Solves",
+        "EO Influence (Orienting Edges During F2L)",
+        "5 Walkthrough Solves"
       ]
     }
   ]

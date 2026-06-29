@@ -23,7 +23,7 @@ export const FreeTrial: React.FC = () => {
 
           <div className="flex justify-center md:justify-start">
             <button
-              onClick={() => window.location.href = "https://app.xskills.cubelelo.com/checkout/ProductBundle/57?utm_source=beginner&utm_medium=in&utm_campaign=xskills-enroll"}
+              onClick={() => window.location.href = "https://app.xskills.cubelelo.com/checkout/Course/28305"}
               className="w-full sm:w-auto bg-brand-orange text-white hover:bg-brand-orange/95 px-8 py-3.5 rounded-xl font-extrabold text-sm tracking-wide shadow-lg shadow-brand-orange/30 transition-all flex items-center justify-center gap-2 select-none cursor-pointer group shrink-0"
             >
               <span>Take a Free Trial</span>

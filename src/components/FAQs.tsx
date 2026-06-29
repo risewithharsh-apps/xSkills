@@ -1,38 +1,7 @@
 import React, { useState } from "react";
 import { ChevronDown, HelpCircle } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-
-interface FAQItem {
-  question: string;
-  answer: string;
-}
-
-const FAQS_DATA: FAQItem[] = [
-  {
-    question: "What are the core objectives of this program?",
-    answer: "The objective is to guide you from matching absolute beginner methodologies to applying professional speedcubing principles like the Yau Method for 4x4, Ortega for 2x2, and the full CFOP framework for 3x3, enabling you to break personal solve records reliably."
-  },
-  {
-    question: "Do I need to have a high IQ or natural talent before taking this course?",
-    answer: "Absolutely not! Speedcubing is a procedural skill based on logic, pattern recognition, and muscle memory. Our mentors break down complex algorithms into simple, memorizable drills that anyone of any age can learn with active practice."
-  },
-  {
-    question: "Are there any prerequisites for enrolling in this program?",
-    answer: "None! The Beginner Course starts completely from scratch—no prior cubing knowledge required. For intermediate and advanced tiers, some familiarity with standard 3x3 solving notations is helpful but not mandatory, as we provide walkthrough cheat sheets."
-  },
-  {
-    question: "How and where do I access my course materials?",
-    answer: "Once enrolled, you receive life-time logging access to the xSkills Learning Management System (LMS) where you can stream on-demand tutorial videos, check interactive formulas, and download cheat-sheet PDFs at your own pace."
-  },
-  {
-    question: "Why should I learn here instead of directly from YouTube?",
-    answer: "While YouTube has many videos, they are highly scattered and often present conflicting finger layouts. xSkills provides a seamless step-by-step masterclass curated directly by National Record Holders. You get standard exercises, structured cheat sheets, clear progression testing, and exclusive access to our active solver community."
-  },
-  {
-    question: "Are there any certifications offered upon completion?",
-    answer: "Yes! Every student receives a certificate of completion from xSkills by Cubelelo after finishing all learning milestones and algorithm submissions."
-  }
-];
+import { FAQs as faqsData } from "../data";
 
 export const FAQs: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -56,11 +25,11 @@ export const FAQs: React.FC = () => {
 
         {/* FAQ list */}
         <div className="space-y-4">
-          {FAQS_DATA.map((faq, index) => {
+          {faqsData.map((faq, index) => {
             const isOpen = openIndex === index;
             return (
               <div
-                key={index}
+                key={faq.id || index}
                 className="bg-white rounded-2xl shadow-xs border border-slate-100 overflow-hidden transition-all duration-300"
               >
                 <button

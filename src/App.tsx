@@ -14,13 +14,13 @@ import { FAQs } from "./components/FAQs";
 import { FreeTrial } from "./components/FreeTrial";
 import { QuizModal } from "./components/QuizModal";
 import { PrivacyPolicy } from "./components/PrivacyPolicy";
-import { TermsOfService } from "./components/TermsOfService";
+import { RefundPolicy } from "./components/RefundPolicy";
 import { AlertCircle, ChevronRight, Puzzle } from "lucide-react";
 import { ShopifyImage } from "./components/ShopifyImage";
 
 export default function App() {
   const [isQuizOpen, setIsQuizOpen] = useState(false);
-  const [currentView, setCurrentView] = useState<"landing" | "privacy" | "terms">("landing");
+  const [currentView, setCurrentView] = useState<"landing" | "privacy" | "refund">("landing");
   const [hideStickyBar, setHideStickyBar] = useState(false);
 
   useEffect(() => {
@@ -146,8 +146,8 @@ export default function App() {
           }}
         />
       ) : (
-        /* Terms of Service View */
-        <TermsOfService
+        /* Refund Policy View */
+        <RefundPolicy
           onBack={() => {
             setCurrentView("landing");
             window.scrollTo({ top: 0, behavior: "instant" });
@@ -184,14 +184,14 @@ export default function App() {
             </button>
             <button
               onClick={() => {
-                setCurrentView("terms");
+                setCurrentView("refund");
                 window.scrollTo({ top: 0, behavior: "instant" });
               }}
               className="hover:text-brand-purple transition-colors cursor-pointer font-semibold"
             >
-              Terms of Service
+              Refund Policy
             </button>
-            <a href="mailto:support@cubelelo.com" className="hover:text-brand-purple transition-colors">support@cubelelo.com</a>
+            <a href="mailto:learn@xskills.in" className="hover:text-brand-purple transition-colors">learn@xskills.in</a>
           </div>
 
           <p className="text-xs text-slate-400 font-semibold">

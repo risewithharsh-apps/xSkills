@@ -94,7 +94,7 @@ export const Syllabus: React.FC = () => {
                       onClick={() => handleToggle(index)}
                       className="w-full flex items-center justify-between p-5 text-left font-bold text-slate-800 hover:bg-[#fafbfc] transition-colors gap-4"
                     >
-                      <span className="text-[14px] md:text-lg font-display text-brand-purple uppercase tracking-wide">
+                      <span className="text-[14px] md:text-lg font-display text-brand-purple font-bold">
                         {module.title}
                       </span>
                       <div className={`p-1 rounded-lg bg-brand-purple/5 text-brand-purple transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}>

@@ -39,25 +39,22 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onBack }) => {
         {/* Intro */}
         <div className="prose prose-slate max-w-none text-slate-600 text-sm md:text-base leading-relaxed space-y-6">
           <p className="font-medium text-slate-700">
-            xSkills Academy (“we”, “us”, “our”, or “xSkills”) is India's leading speedcubing learning platform operated by Cubelelo, the premier brand for speedcubes and speedcubing equipment. This Privacy Policy describes how we collect, use, store, share, and protect your personal data when you visit our website, register for cubing classes, purchase course packages, or utilize our learning materials.
-          </p>
-          <p>
-            By enrolling in a class or choosing to use xSkills, you agree to the terms of this Privacy Policy and our Terms of Service. If you are under the age of 18, your registration and usage of xSkills must be completed with the supervision and active consent of a parent or legal guardian.
+            At xSkills, we are committed to protecting your privacy and personal information. This privacy policy outlines the ways in which we collect, use, and safeguard your information.
           </p>
 
           {/* Quick Stats Summary Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 my-8 bg-slate-50/80 p-5 rounded-2xl border border-slate-100">
             <div className="flex flex-col gap-1 text-center sm:text-left">
               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Enforced Security</span>
-              <span className="text-sm font-bold text-slate-800">256-bit AES Encryption</span>
+              <span className="text-sm font-bold text-slate-800">Industry-Standard</span>
             </div>
             <div className="flex flex-col gap-1 text-center sm:text-left border-y sm:border-y-0 sm:border-x border-slate-200/60 py-3 sm:py-0 sm:px-4">
-              <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">No Sales of Data</span>
-              <span className="text-sm font-bold text-slate-800">100% Zero Ads Sharing</span>
+              <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Sharing Privacy</span>
+              <span className="text-sm font-bold text-slate-800">No Selling or Renting</span>
             </div>
             <div className="flex flex-col gap-1 text-center sm:text-left sm:pl-4">
               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Contact Point</span>
-              <span className="text-sm font-bold text-slate-800">support@cubelelo.com</span>
+              <span className="text-sm font-bold text-slate-800">learn@xskills.in</span>
             </div>
           </div>
 
@@ -65,60 +62,92 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onBack }) => {
 
           {/* Section 1 */}
           <div>
-            <h2 id="info-we-collect" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 text-slate-850 flex items-center gap-2">
+            <h2 id="collection" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-6 h-6 rounded-lg bg-brand-orange text-white text-xs font-bold font-mono">1</span>
-              Information We Collect
+              Collection of Information
             </h2>
-            <p className="mb-3">
-              We collect information that allows us to provide specialized cubing mentoring and customize student programs, which falls into the following categories:
+            <p>
+              We collect information from you when you register for an account, enroll in a course, or interact with our platform. This information may include your name, email address, phone number, and billing information.
             </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>
-                <strong>Parent & Guardian Information:</strong> Parent's name, email address, phone number, and city. This is required for schedule coordination, lesson reporting, parent teacher meetings, and invoicing.
-              </li>
-              <li>
-                <strong>Payment Information:</strong> When you purchase packages/subscriptions, payments are processed securely by our trusted online payment gateway engines (such as Razorpay, Instamojo, or Stripe integrated via FreshLearn). We do not record or view your credit card details, CVV, or bank credentials.
-              </li>
-              <li>
-                <strong>Video Calls & Lesson Feedback:</strong> With your permission, live online interactive classes conducted over secure meeting tools may be logged to record teacher feedback, custom training notes, progress analytics, and customized worksheets.
-              </li>
-            </ul>
           </div>
 
           {/* Section 2 */}
-          <div className="pt-4">
-            <h2 id="freshlearn" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 flex items-center gap-2">
+          <div className="pt-2">
+            <h2 id="use-of-info" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-6 h-6 rounded-lg bg-brand-orange text-white text-xs font-bold font-mono">2</span>
-              FreshLearn Learning Platform Integration
+              Use of Information
             </h2>
             <p>
-              Our academy utilizes standard secure technology integration layers provided by FreshLearn as our cloud hosting and learning management software partner. We handle user progress and course registrations securely. When you enroll in our training packages or active student portals, your secure logins and class schedules are maintained through secure external tokens which protect your primary credentials.
+              We use the information we collect to provide you with access to our platform and the courses you have enrolled in. We may also use your information to communicate with you about new courses or updates to our platform.
             </p>
           </div>
 
           {/* Section 3 */}
-          <div className="pt-4">
-            <h2 id="third-party" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 flex items-center gap-2">
+          <div className="pt-2">
+            <h2 id="lms-communication" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-6 h-6 rounded-lg bg-brand-orange text-white text-xs font-bold font-mono">3</span>
-              Third-Party Services & Links
+              Communication with LMS
             </h2>
             <p>
-              In general, the third-party providers used by us will only collect, use and disclose your information to the extent necessary to allow them to perform the services they provide to us.
-            </p>
-            <p>
-              However, certain third-party service providers, such as payment gateways and other transaction processors, have their own privacy policies in respect to the information we are required to provide to them for your purchase-related transactions.
+              When you send us an email message or otherwise contact us, we may use the information provided by you to respond to your communication as described in this Privacy Policy. We may also archive this information or use it for future communications with you.
             </p>
           </div>
 
           {/* Section 4 */}
-          <div className="pt-4">
-            <h2 id="updates" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 flex items-center gap-2">
+          <div className="pt-2">
+            <h2 id="sharing" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-6 h-6 rounded-lg bg-brand-orange text-white text-xs font-bold font-mono">4</span>
-              Amendments & Policy Updates
+              Sharing of Information
             </h2>
             <p>
-              We reserve the right to modify this privacy policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon their posting on the website. If we make material changes to this policy, we will notify you here that it has been updated, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we use and/or disclose it.
+              We do not sell or rent your personal information to third parties. We may share your information with our service providers who assist us in providing our platform and courses.
             </p>
+          </div>
+
+          {/* Section 5 */}
+          <div className="pt-2">
+            <h2 id="security" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 flex items-center gap-2">
+              <span className="flex items-center justify-center w-6 h-6 rounded-lg bg-brand-orange text-white text-xs font-bold font-mono">5</span>
+              Security of Information
+            </h2>
+            <p>
+              We use industry-standard security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.
+            </p>
+          </div>
+
+          {/* Section 6 */}
+          <div className="pt-2">
+            <h2 id="cookies" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 flex items-center gap-2">
+              <span className="flex items-center justify-center w-6 h-6 rounded-lg bg-brand-orange text-white text-xs font-bold font-mono">6</span>
+              Cookies
+            </h2>
+            <p>
+              We may use cookies to enhance your user experience and personalize your interaction with our platform.
+            </p>
+          </div>
+
+          {/* Section 7 */}
+          <div className="pt-2">
+            <h2 id="modification" className="text-lg md:text-xl font-black text-slate-850 font-display mb-3 flex items-center gap-2">
+              <span className="flex items-center justify-center w-6 h-6 rounded-lg bg-brand-orange text-white text-xs font-bold font-mono">7</span>
+              Information Modification
+            </h2>
+            <p>
+              You can modify your personal details like your name and number by accessing the Edit Profile option anytime from our site, except your registered email address.
+            </p>
+          </div>
+
+          {/* Content protection callout warning */}
+          <div className="my-8 bg-red-50/60 p-5 rounded-2xl border border-red-100 flex gap-4">
+            <div className="p-2.5 bg-red-100 rounded-xl text-red-600 shrink-0 self-start">
+              <Shield className="w-5 h-5" />
+            </div>
+            <div className="flex flex-col gap-1">
+              <span className="text-xs font-bold text-red-500 uppercase tracking-widest leading-none">Content Protection Warning</span>
+              <p className="text-sm font-medium text-slate-750 mt-1.5 leading-relaxed">
+                <strong>Note:</strong> You cannot screen-record the information shared in your respective course of choice or share it with anyone else who has not enrolled in our learning platform. If found otherwise, we may delete your account permanently from our database.
+              </p>
+            </div>
           </div>
 
           {/* Section 8 */}
@@ -128,12 +157,12 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({ onBack }) => {
               Questions and Contact Information
             </h2>
             <p>
-              If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information, contact our Data Security Grievance Officer at:
+              By using our platform, you agree to the terms of this privacy policy. We may update this policy from time to time, and any changes will be posted on our website. If you have any questions or concerns about our privacy policy, please contact us at:
             </p>
             <p className="bg-slate-50 p-4 rounded-xl border border-slate-100 font-mono text-xs text-slate-600 leading-relaxed mt-2">
               <strong>Address:</strong> Cubelelo, 27, SBI Colony, Sunder Nagar, Raipur, Chhattisgarh 492013, India
               <br />
-              <strong>Official Email:</strong> support@cubelelo.com
+              <strong>Official Email:</strong> learn@xskills.in
               <br />
               <strong>Contact:</strong> +91 8080 573 573 (Available Monday–Saturday, 9:30 AM to 6:00 PM IST)
             </p>
