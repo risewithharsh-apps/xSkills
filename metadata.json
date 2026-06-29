@@ -1,0 +1,6 @@
+{
+  "name": "xSkills Cubing Masterclass",
+  "description": "Expert speedcubing masterclass interface with level assessment quizzes, roadmap paths, mentors information, and responsive plans, optimized for the Cubelelo color theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
